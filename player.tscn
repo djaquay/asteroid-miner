@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr1s8eyneh76v"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_lj7bo"]
+[ext_resource type="Texture2D" uid="uid://ccov7wr5hmdpq" path="res://aircraft.png" id="1_w5dgw"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_lj7bo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 1.5708
+texture = ExtResource("1_w5dgw")

@@ -4,19 +4,21 @@ Start from nothing, build an empire
 
 ## Up Next/The Plan
 
-* connect repo to GitHub
 
 Bugs
 
 
 In the queue
 
-* ship graphics
-* steer ship to point to mouse
-* WASD for thrusters (A/D too?)
+* actual ship graphics
+* gradual accel/decel/coast
 
 ## Done
 
+* connect repo to GitHub
+* ship graphics (placeholder)
+* steer ship to point to mouse
+* WS for thrusters (A/D later?)
 
 ## Notes
 
