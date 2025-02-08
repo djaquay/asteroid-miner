@@ -11,7 +11,6 @@ Bugs
 In the queue
 
 * actual ship graphics
-* gradual accel/decel/coast
 
 ## Done
 
@@ -19,6 +18,7 @@ In the queue
 * ship graphics (placeholder)
 * steer ship to point to mouse
 * WS for thrusters (A/D later?)
+* gradual accel/decel/coast
 
 ## Notes
 
