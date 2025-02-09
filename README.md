@@ -11,7 +11,6 @@ Bugs
 
 In the queue
 
-* asteroid collision (bounce off, zero damage)
 * asteroid mining (simple graphics, simple asteroid size reduction)
 * ship cargo limit
 * simple station (placeholder graphics)
@@ -26,6 +25,7 @@ In the queue
 * steer ship to point to mouse
 * WS for thrusters (A/D later?)
 * gradual accel/decel/coast
+* asteroid collision (bounce off, zero damage)
 
 ## Notes
 

@@ -10,3 +10,4 @@ script = ExtResource("1_63pou")
 color = Color(0, 0.784314, 0, 1)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+build_mode = 1

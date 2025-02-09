@@ -17,6 +17,7 @@ func _ready() -> void:
 			
 	# vectors.sort_custom(self, "sort_clockwise")
 	$Polygon2D.set_polygon(PackedVector2Array(vectors))
+	$CollisionPolygon2D.polygon = PackedVector2Array(vectors)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

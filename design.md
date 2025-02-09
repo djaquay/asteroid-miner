@@ -497,6 +497,59 @@ Research
 Risk Mgmt
 	enemies/quests have levels, showing relative risk, allowing player to decide whether to pursue or not
 
+Asteroid Miner
+--------------
+2D
+generated galaxy, star systems, asteroid fields, planets
+area-based difficulty (harder threats, the further you go from ... somewhere?)
+ship weapon/armor/propulsion upgrades
+	multi-ship?
+RS in space
+	str/def/mine/slay are easy
+	hp/cook/thief can be done RS-style
+	does magic work in space?  magic/rune/pray
+		in space, pray becomes artifacts, maybe
+	farm RS-style, or NMS?
+	att?  herb?
+	is hunt more GW2's slayer count?  or RS's hunt (a mini-game for otherwise untouchable mobs)?
+	fish can improve on RS (w/o being SV's mini-game)
+	probably ignore: range/fletch
+	ctn becomes warehousing at a 'port
+wc/fm/smith/agil/craft
+but is it really all that much fun just to have a ton of skills to round-robin around?
+	it's probably more fun (for me) to FTO, and I'm past that w/RS
+	also important to have a reason to do things
+		ach/coll/quests works, as does $$, but a purpose for skill output is typically better
+
+After the War
+-------------
+proc gen galaxy filled with wrecks and ruins from a newly-ended conflict
+you get to clean them up, harvest mats (or mine stuff anew), build stuff
+clean out enemies that didn't quite get the message that the war's over
+	lore: your side broke the comms code of the bad guys
+	now we know where they are, who they are, how strong they are, etc.
+	we can pick and choose our battles, or just avoid them (perhaps until OP)
+	"clean out" can also mean "heal", e.g. produce food/medicine that changes them from enemies to benign, or even to workers
+		this could also mean no strong need to target (e.g. bullets), but rather just to provide (e.g. supply chain)
+multiple stats to increase (e.g. Kenshi, but friendlier looking)
+control
+	do I really like NMS/ED 3d combat?  or is Eve/AI's hands-off system better?
+	lore that prevents high-speed impacts (e.g. NMS)
+	but local control that feels more like *you* are flying the ship
+trade
+	a fleet that "flys slower than you do" (e.g. on a 1/4-speed timer)
+	send them out, have them update your known db
+	send them buy/sell/transport commands
+	lock in contracts (with a timeout)
+		buy options, so if the sell price continues to climb, you continue to profit
+mining
+	Eve's/Avorion's/AI's beams?  A "deflating voxel" visual?
+	probably not NMS's blowing shit up
+	not SE
+		shaky/grindy SE-style feels bad
+		poor close-up textures look bad (another vote for voxel)
+		chasing fragments or letting 'em float away is poor use of mats or time, respectively
+
 Fully craft a ship.
 
 Had thoughts about more granular drops, e.g. "mechanical parts", "electrical parts", etc., but then

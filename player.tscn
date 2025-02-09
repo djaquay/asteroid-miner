@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://cr1s8eyneh76v"]
+[gd_scene load_steps=4 format=3 uid="uid://cr1s8eyneh76v"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_lj7bo"]
 [ext_resource type="Texture2D" uid="uid://ccov7wr5hmdpq" path="res://aircraft.png" id="1_w5dgw"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cpjbt"]
+radius = 8.0
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_lj7bo")
@@ -9,3 +12,6 @@ script = ExtResource("1_lj7bo")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 rotation = 1.5708
 texture = ExtResource("1_w5dgw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_cpjbt")
