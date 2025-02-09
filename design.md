@@ -14,6 +14,7 @@ Core principles
 Lesser concerns
 	Emacs-style 100% modeless, and no popups to break the flow
 		Eve's floating ui seems good here
+		MC's very regular popups seem like a counter-example
 		scrolling sidebar might work as well
 	No factions
 		totally not interested in politics or standings
@@ -110,6 +111,14 @@ Systems
 		unlock via research, xp, quests/tasks, etc.
 	Research
 		requires time, materials
+	Gathering
+		mining
+			Eve's/Avorion's/AI's beams?  A "deflating voxel" visual?
+			probably not NMS's blowing shit up
+			not SE
+				shaky/grindy SE-style feels bad
+				poor close-up textures look bad (another vote for voxel)
+				chasing fragments or letting 'em float away is poor use of mats or time, respectively
 	Crafting/Manufacturing
 		GT-like prod chains, use mats to make machines, to make better mats, etc.
 		GT-like main prod chain feeds itself, but also gates QoL items, ship upgrade items, etc.
@@ -181,9 +190,10 @@ World Gen
 	Tasks
 	Mobs
 
-
-
 -----
+
+AM (Asteroid Miner), or ATW (After The War)
+--
 
 Game provides
 	galaxy, solar systems, planets, asteroids
@@ -196,54 +206,19 @@ Player provides
 	research
 	configuration of ships
 Ships
-	Capsule (per Eve)
-		no capacity, no weapons, just to let you move around after getting killed
-	Shuttle
-		rudimentary mining
-		slightly more hauling capacity (mostly pax)
-		fast
-		weak
-		no weapons?  limited weapons?
-	Hauler
-	Miner
-	Fighter
-	Capital ship
+	Capsule (per Eve), Shuttle, Hauler, Miner, Fighter, Capital ship
 Ship capabilities
-	size (affects docking, or can you even dock here?)
-	speed
-	shields
-	weapons
-	mining speed/strength/material
-	processing
-	hauling capacity
-	drones
+	size (affects docking), speed, shields, weapons, mining speed/strength/material, processing, hauling capacity, drones
 Fleets
 Crew
 	SV provides them as drops, or you can hire when in port
-Economy
-	markets
-	transportation
-Materials
-	ores
-	gems
-	artifacts
-Processing
-	ores to ingots
-	ingots to intermediate items
-Crafting
-	intermediate items to finished products
-Weapons
-	auto-targeting vs non
-	variations of strengths vs weaknesses, i.e. rock/paper/scissors
-	lasers vs shields
-	projectiles vs hull
-	torpedos?
-Enemies/Mobs
-	critters
-	pirates
-	whales
-	monsters
-	reavers
+Economy: markets, transportation
+Materials: ores, gems, artifacts
+Processing: ores to ingots, ingots to intermediate items
+Crafting: intermediate items to finished products
+Weapons: auto-targeting vs non, variations of strengths vs weaknesses, lasers, torpedos, cannons
+Enemies/Mobs: critters, pirates, whales, monsters, reavers
+
 Quests/Jobs
 	Fetch quests
 		collect/gather and bring stuff here
@@ -408,102 +383,17 @@ it becomes necessary.  That way, when player gets killed bc they didn't have one
 slap themselves on the forehead, knowing full well what they should have done.  It'll be
 *their* fault, not the game's.
 
+Had thoughts about more granular drops, e.g. "mechanical parts", "electrical parts", etc., but then
+also "specialized parts A", "B", "C", etc.  Research on how to *make* these parts could consume the
+original parts, and require some number of them to complete, causing the player to choose whether
+to use the parts e.g. to fix his ship, or to sort out how to make them himself.
+
 ===
 
 (other notes, from tomservo (above this is from ortega, or combined as I process this))
 
-AM (Asteroid Miner), or ATW (After The War)
---
-Setting/Theme: GW2/RS/GTNH in space
-Purpose
-	HL
-	ML
-	LL
-Game provides
-	galaxy, solar systems, planets, asteroids
-	ships
-	stations
-	factions?
-	quests, jobs
-Player provides
-	mining
-	research
-	configuration of ships
-Ships
-	Capsule (per Eve)
-	Shuttle
-		rudimentary mining
-		slightly more hauling capacity (mostly pax)
-		fast
-		weak
-		no weapons?  limited weapons?
-	Hauler
-	Miner
-	Fighter
-	Capital ship
-Ship capabilities
-	size (affects docking)
-	speed
-	shields
-	weapons
-	mining speed/strength/material
-	processing
-	hauling capacity
-	drones
-Fleets
-Economy
-	markets
-	transportation
-Materials
-	ores
-	gems
-	artifacts
-Processing
-	ores to ingots
-	ingots to intermediate items
-Crafting
-	intermediate items to finished products
-Weapons
-	auto-targeting vs non
-	variations of strengths vs weaknesses
-	lasers
-	torpedos
-	cannons
-Enemies/Mobs
-	critters
-	pirates
-	whales
-	monsters
-	reavers
-Quests/Jobs
-	Fetch quests
-		collect/gather and bring stuff here
-			bonus over market price
-			avoid sillyness of being able to buy stuff at local mkt and profit
-	Bounties
-		kill 10 rats (perhaps in a specific place)
-		chase down specific badguy
-			chain of clues to find badguy
-			badguy might offer to pay his way free
-	Transport
-		bring stuff from there to here
-		take this stuff (from here) to there
-		transport chains
-Research
-	expenses
-		time
-		material
-		equipment
-Risk Mgmt
-	enemies/quests have levels, showing relative risk, allowing player to decide whether to pursue or not
-
 Asteroid Miner
 --------------
-2D
-generated galaxy, star systems, asteroid fields, planets
-area-based difficulty (harder threats, the further you go from ... somewhere?)
-ship weapon/armor/propulsion upgrades
-	multi-ship?
 RS in space
 	str/def/mine/slay are easy
 	hp/cook/thief can be done RS-style
@@ -542,17 +432,3 @@ trade
 	send them buy/sell/transport commands
 	lock in contracts (with a timeout)
 		buy options, so if the sell price continues to climb, you continue to profit
-mining
-	Eve's/Avorion's/AI's beams?  A "deflating voxel" visual?
-	probably not NMS's blowing shit up
-	not SE
-		shaky/grindy SE-style feels bad
-		poor close-up textures look bad (another vote for voxel)
-		chasing fragments or letting 'em float away is poor use of mats or time, respectively
-
-Fully craft a ship.
-
-Had thoughts about more granular drops, e.g. "mechanical parts", "electrical parts", etc., but then
-also "specialized parts A", "B", "C", etc.  Research on how to *make* these parts could consume the
-original parts, and require some number of them to complete, causing the player to choose whether
-to use the parts e.g. to fix his ship, or to sort out how to make them himself.
