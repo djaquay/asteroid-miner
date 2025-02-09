@@ -407,3 +407,92 @@ of these useful systems, can explain what it's for, can do so a lvl or five ahea
 it becomes necessary.  That way, when player gets killed bc they didn't have one, they can
 slap themselves on the forehead, knowing full well what they should have done.  It'll be
 *their* fault, not the game's.
+
+===
+
+(other notes, from tomservo (above this is from ortega, or combined as I process this))
+
+AM (Asteroid Miner), or ATW (After The War)
+--
+Setting/Theme: GW2/RS/GTNH in space
+Purpose
+	HL
+	ML
+	LL
+Game provides
+	galaxy, solar systems, planets, asteroids
+	ships
+	stations
+	factions?
+	quests, jobs
+Player provides
+	mining
+	research
+	configuration of ships
+Ships
+	Capsule (per Eve)
+	Shuttle
+		rudimentary mining
+		slightly more hauling capacity (mostly pax)
+		fast
+		weak
+		no weapons?  limited weapons?
+	Hauler
+	Miner
+	Fighter
+	Capital ship
+Ship capabilities
+	size (affects docking)
+	speed
+	shields
+	weapons
+	mining speed/strength/material
+	processing
+	hauling capacity
+	drones
+Fleets
+Economy
+	markets
+	transportation
+Materials
+	ores
+	gems
+	artifacts
+Processing
+	ores to ingots
+	ingots to intermediate items
+Crafting
+	intermediate items to finished products
+Weapons
+	auto-targeting vs non
+	variations of strengths vs weaknesses
+	lasers
+	torpedos
+	cannons
+Enemies/Mobs
+	critters
+	pirates
+	whales
+	monsters
+	reavers
+Quests/Jobs
+	Fetch quests
+		collect/gather and bring stuff here
+			bonus over market price
+			avoid sillyness of being able to buy stuff at local mkt and profit
+	Bounties
+		kill 10 rats (perhaps in a specific place)
+		chase down specific badguy
+			chain of clues to find badguy
+			badguy might offer to pay his way free
+	Transport
+		bring stuff from there to here
+		take this stuff (from here) to there
+		transport chains
+Research
+	expenses
+		time
+		material
+		equipment
+Risk Mgmt
+	enemies/quests have levels, showing relative risk, allowing player to decide whether to pursue or not
