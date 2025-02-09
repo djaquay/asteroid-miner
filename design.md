@@ -496,3 +496,10 @@ Research
 		equipment
 Risk Mgmt
 	enemies/quests have levels, showing relative risk, allowing player to decide whether to pursue or not
+
+Fully craft a ship.
+
+Had thoughts about more granular drops, e.g. "mechanical parts", "electrical parts", etc., but then
+also "specialized parts A", "B", "C", etc.  Research on how to *make* these parts could consume the
+original parts, and require some number of them to complete, causing the player to choose whether
+to use the parts e.g. to fix his ship, or to sort out how to make them himself.

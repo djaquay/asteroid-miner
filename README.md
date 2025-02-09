@@ -4,12 +4,19 @@ Start from nothing, build an empire
 
 ## Up Next/The Plan
 
+* simple asteroid (placeholder graphics)
 
 Bugs
 
 
 In the queue
 
+* asteroid collision (bounce off, zero damage)
+* asteroid mining (simple graphics, simple asteroid size reduction)
+* ship cargo limit
+* simple station (placeholder graphics)
+* offloading cargo, gain credits
+* hud to display cargo, credits
 * actual ship graphics
 
 ## Done
@@ -22,9 +29,4 @@ In the queue
 
 ## Notes
 
-Fully craft a ship.
-
-Had thoughts about more granular drops, e.g. "mechanical parts", "electrical parts", etc., but then
-also "specialized parts A", "B", "C", etc.  Research on how to *make* these parts could consume the
-original parts, and require some number of them to complete, causing the player to choose whether
-to use the parts e.g. to fix his ship, or to sort out how to make them himself.
+See design.md.
